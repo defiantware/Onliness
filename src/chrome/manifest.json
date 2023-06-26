@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Onliness",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Turns website dark when the internet connection is not available.",
     "browser_specific_settings": {
         "gecko": {
