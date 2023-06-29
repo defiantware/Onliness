@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Onliness",
-    "version": "1.0.2",
-    "description": "Turns website dark when the internet connection is not available.",
+    "version": "1.0.3",
+    "description": "Dims the website when the internet connection is not available.",
     "browser_specific_settings": {
         "gecko": {
             "id": "onliness@defiantware",
@@ -15,9 +15,6 @@
         "48": "icons/onliness-icon-48x48.png",
         "128": "icons/onliness-icon-128x128.png"
     },
-    "permissions": [
-        "activeTab"
-    ],
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
